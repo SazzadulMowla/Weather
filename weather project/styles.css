@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: flex;
+  background-color: rgb(50, 50, 117);
+  color: white;
+  font-family: sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.location , 
+.tempareture{
+  height: 30vh;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.tempareture{
+  flex-direction: column;
+ 
+}
+.place{
+  display: flex;
+}
+
+.country-name{
+  margin-left: 15px;
+
+}
+.degree-section{
+  display: flex;
+  align-items: center;
+ 
+ }
+ .degree-section span{
+  font-size: 30px;
+  margin: 10px;
+ }
+ .degree-section h2{
+  font-size: 40px;
+ }
+ img{
+   color: #fff;
+   height: 50px;
+ }
